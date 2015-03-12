@@ -2,8 +2,9 @@
 Mobile responsive application created using PhoneGap. Increases the users productivity through use of the world acclaimed Spanish Pomodoro technique.
 
 
-:-------------------------:|:-------------------------:
-![Screenshot](screenshots/Screenshot.PNG)  |  ![Screenshot2](screenshots/Screenshot2.PNG)  |   ![Screenshot3](screenshots/Screenshot3.PNG)
+<img style="float: right; width: 205px;" src="screenshots/Screenshot.PNG">
+<img style="float: right; width: 205px;" src="screenshots/Screenshot2.PNG">
+<img style="float: right; width: 205px;" src="screenshots/Screenshot3.PNG">
 
 
 # Why
