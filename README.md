@@ -2,11 +2,9 @@
 Mobile responsive application created using PhoneGap. Increases the users productivity through use of the world acclaimed Spanish Pomodoro technique.
 
 
-Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![Screenshot](screenshots/Screenshot.png)  |  ![Screenshot2](screenshots/Screenshot2.png)
+![Screenshot](screenshots/Screenshot.PNG)  |  ![Screenshot2](screenshots/Screenshot2.PNG)  |   ![Screenshot3](screenshots/Screenshot3.PNG)
 
-![Screenshot3](screenshots/Screenshot3.png)
 
 # Why
 This Spanish technique can help you power through distractions, hyper-focus, and get things done in short bursts, while taking frequent breaks to come up for air and relax.
