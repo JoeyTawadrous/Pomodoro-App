@@ -7,7 +7,7 @@ Mobile responsive application created using PhoneGap. Increases the users produc
 <img alt="Screenshot3" width="205px" src="screenshots/Screenshot3.PNG">
 
 
-# Why
+# This is Super Useful!
 This Spanish technique can help you power through distractions, hyper-focus, and get things done in short bursts, while taking frequent breaks to come up for air and relax.
 
 # How to Use
