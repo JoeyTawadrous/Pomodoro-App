@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+
+        <!-- CSS Imports -->
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" >
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-3.3.2-dist/css/bootstrap.css"> 
+        <link rel="stylesheet" type="text/css" href="lib/hex-buttons/hexagons.css"> 
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        
+        <!-- JS Imports -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="lib/bootbox/bootbox.js"></script> 
+        <script src="lib/circle-progress/circle-progress.js"></script>
+        <script src="lib/bootstrap/bootstrap-3.3.2-dist/js/bootstrap.js"></script> 
+    </head>
+    <body id="wrapper">
+
+        <div class="block" id="info">
+            <span><a class="alert" href=#><i class="fa fa-info-circle"></i></a></span>
+        </div>
+
+        <div class="block">
+            <div id="circle"></div>
+        </div>
+
+        <script>
+            $('#circle').circleProgress({
+                value: 0,
+                size: 200,
+                startAngle: 4.73,
+                fill: { color: "#fff" } 
+            });
+
+            $(document).on("click", ".alert", function(e) {
+                bootbox.dialog({
+                    title: "The Pomodoro Technique",
+                    message: "This Spanish technique can help you power through distractions, hyper-focus, and get things done in short bursts, while taking frequent breaks to come up for air and relax <br><br><br> Press hexagon button to start timer, <br><br> Press again to stop timer. <br><br> Simple as that! <br><br> The Pomodoro interval is set to 25 minutes work & earns you a 5 minutes break after this is accomplished, with a 60 minute break after 4 pomodoros."
+                });
+            });
+        </script>
+
+        
+        <div class="block" id="timer">
+            <span id="minutes">25</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+        </div>
+
+
+        <div class="block">
+            <div id="start" class="hb hb-sm inv hb-linkedin-inv" style="display: ;"></div>
+            <div id="stop" class="hb hb-sm inv hb-linkedin-inv" style="display: none;"><i class="fa fa-power-off"></i></div>
+            <div id="reset" class="hb hb-sm inv hb-linkedin-inv" style="display: none;"><i class="fa fa-refresh"></i></div>
+        </div>
+
+
+        <div class="block" id="bottom">
+            <div id="bottom-left">
+                <h3>Round</h3>
+                <p id="round">0/4</p>
+            </div>
+            <div id="bottom-right">
+                <h3>Total</h3>
+                <p id="total">0</p>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
